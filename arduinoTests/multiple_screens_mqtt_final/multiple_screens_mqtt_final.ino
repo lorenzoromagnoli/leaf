@@ -1,17 +1,18 @@
 #include <SPI.h>
 #include <WiFi101.h>
 #include <MQTTClient.h>
+#include <Wire.h>
+#include <LiquidCrystal_PCF8574.h>
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+  #include <avr/power.h>
+#endif
 
 const char *ssid = "HOLDEN_UFFICI";
 const char *pass = "2017_storytelling";
 
 WiFiClient net;
 MQTTClient client;
-
-unsigned long lastMillis = 0;
-
-#include <Wire.h>
-#include <LiquidCrystal_PCF8574.h>
 
 LiquidCrystal_PCF8574 lcd1(0x20);  
 LiquidCrystal_PCF8574 lcd2(0x21);  
@@ -22,20 +23,35 @@ LiquidCrystal_PCF8574 lcd6(0x25);
 LiquidCrystal_PCF8574 lcd7(0x26);  
 LiquidCrystal_PCF8574 lcd8(0x27);  
 
+#define PIN            6
+
+// How many NeoPixels are attached to the Arduino?
+#define NUMPIXELS      50
+
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ400);
+
+
 void setup() {
+  
   Serial.begin(9600);
   initLCD();
 
-  writeMessageToScreen(0,"...");
+  for (int i=1; i< 9; i++){
+    writeMessageToScreen(i,"...");
+  }
 
   initWiFi();
-  connect();
+
+  initPixels();
+
+  setStripToWhite();
 }
 
 
 
 
 void loop() {
+  
   client.loop();
   delay(10); // <- fixes some issues with WiFi stability
 
@@ -57,36 +73,6 @@ void messageReceived(String topic, String payload, char * bytes, unsigned int le
   writeMessageToScreen(screenIndex,payload);
 }
 
-void writeMessageToScreen(int lcdIndex, String msg) {
-  switch ( lcdIndex) {
-    case 0:
-      lcd1.setBacklight(255);
-      lcd1.home();
-      lcd1.clear();
-      lcd1.print(msg);
-      break;
 
-    case 1:
-      lcd2.setBacklight(255);
-      lcd2.home();
-      lcd2.clear();
-      lcd2.print(msg);
-      break;
-
-    case 2:
-      lcd3.setBacklight(255);
-      lcd3.home();
-      lcd3.clear();
-      lcd3.print(msg);
-      break;
-
-    case 3:
-      lcd4.setBacklight(255);
-      lcd4.home();
-      lcd4.clear();
-      lcd4.print(msg);
-      break;
-  }
-}
 
 

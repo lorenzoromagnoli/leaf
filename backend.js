@@ -100,8 +100,8 @@ MongoClient.connect('mongodb://leaf:leaf_holden@ds263089.mlab.com:63089/leaf', (
 
 
 //here I set a timer that dispatch the messages to the Arduinos
-var n_screenXArduino=4;
-var n_arduinosControllingScreend=1
+var n_screenXArduino=8;
+var n_arduinosControllingScreend=5
 
 setInterval(function(){
 	random_Arduino= Math.floor(Math.random()*n_arduinosControllingScreend);
@@ -115,8 +115,8 @@ setInterval(function(){
 		//console.log(r);
 
 		var randomElement = db.collection('memories').find(query).limit(1).skip(r,).toArray((err, results)=> {
-			console.log("new sentence is"+ results[0].message);
-			mqttclient.publish('/arduino'+random_Arduino+'/screen'+random_Screen, results[0].message);
+			console.log("new sentence is "+ results[0].message);
+			mqttclient.publish('/arduino'+random_Arduino+'/screen'+random_Screen+1, results[0].message);
 		});
 	});
 
