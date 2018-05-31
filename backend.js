@@ -44,11 +44,14 @@ app.post('/newMessage', (req, res) => {
 		console.log('saved to database')
 		res.send('saved to database');
 		mqttclient.publish('/glow', 'now');
+		mqttclient.publish('/printer',req.body.message);
+
 	})
 })
 
 app.post('/updateMessage', (req, res) => {
 	console.log(req.body);
+
 	var myquery = {
 		_id: ObjectId(req.body.id)
 	};
