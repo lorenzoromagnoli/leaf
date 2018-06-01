@@ -121,28 +121,28 @@ MongoClient.connect('mongodb://leaf:leaf_holden@ds263089.mlab.com:63089/leaf', (
 var n_screenXArduino = 8;
 var n_arduinosControllingScreend = 5
 
-// setInterval(function() {
-//
-// 	if (mqttclient.connected) {
-//
-// 		random_Arduino = Math.floor(Math.random() * n_arduinosControllingScreend);
-// 		random_Screen = Math.floor(Math.random() * n_screenXArduino);
-// 		console.log("changing screen n." + random_Screen + " of Arduino n." + random_Arduino);
-//
-// 		var query = {
-// 			approved: 'true'
-// 		};
-// 		db.collection('memories').count(query, (err, count) => {
-// 			//console.log(count);
-// 			var r = Math.floor(Math.random() * count);
-// 			//console.log(r);
-//
-// 			var randomElement = db.collection('memories').find(query).limit(1).skip(r, ).toArray((err, results) => {
-// 				console.log("new sentence is " + results[0].message);
-// 				var index = random_Screen + 1
-// 				mqttclient.publish('/arduino' + random_Arduino + '/screen' + index, results[0].message);
-// 			});
-// 		});
-// 	}
-//
-// }, 1000);
+setInterval(function() {
+
+	if (mqttclient.connected) {
+
+		random_Arduino = Math.floor(Math.random() * n_arduinosControllingScreend);
+		random_Screen = Math.floor(Math.random() * n_screenXArduino);
+		console.log("changing screen n." + random_Screen + " of Arduino n." + random_Arduino);
+
+		var query = {
+			approved: 'true'
+		};
+		db.collection('memories').count(query, (err, count) => {
+			//console.log(count);
+			var r = Math.floor(Math.random() * count);
+			//console.log(r);
+
+			var randomElement = db.collection('memories').find(query).limit(1).skip(r, ).toArray((err, results) => {
+				console.log("new sentence is " + results[0].message);
+				var index = random_Screen + 1
+				mqttclient.publish('/arduino' + random_Arduino + '/screen' + index, results[0].message);
+			});
+		});
+	}
+
+}, 1000);
