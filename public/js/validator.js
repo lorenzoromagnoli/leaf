@@ -13,9 +13,9 @@ $(document).ready(function() {
 
 				if (item.approved=="true") {
 					//items.push( "<li id='" + i + "'>" + item.message + "</li>" );
-					$('#messages-validator').append('<tr class="valid" id="' + item._id + '">  <td>' + item.message + '</td><td> <a class="action-ban">ban</a></td>  </tr>');
+					$('#messages-validator').append('<tr class="valid" id="' + item._id + '">  <td class="message">' + item.message + '</td><td class="buttons"> <a class="action-ban">ban</a> <a class="action-delete">delete</a></td>  </tr>');
 				} else {
-					$('#messages-validator').append('<tr class="pending" id="' + item._id + '"><td>' + item.message + '</td><td> <a class="action-approve">approve</a></td> </tr>');
+					$('#messages-validator').append('<tr class="pending" id="' + item._id + '"><td class="message">' + item.message + '</td><td class="buttons"> <a class="action-approve">approve</a> <a class="action-delete">delete</a> </td> </tr>');
 				}
 			});
 
@@ -39,6 +39,10 @@ function handleButtons(){
 	$('.action-approve').click(function() {
 		var msg_id=$(this).parent().parent().attr('id');
 		editMessageStatus(msg_id,true)
+	})
 
+	$('.action-delete').click(function() {
+		var msg_id=$(this).parent().parent().attr('id');
+		deleteMessage(msg_id);
 	})
 }

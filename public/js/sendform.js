@@ -32,5 +32,19 @@ function editMessageStatus(message_id,approved){
 	console.log(messageToSend);
 
 	$.post('/updateMessage', messageToSend, function(data){
+		console.log("done");
+		location.reload();
+
+	});
+}
+
+function deleteMessage(message_id){
+	var messageToSend={
+		'id':message_id,
+	};
+
+	$.post('/deleteMessage', messageToSend, function(data){
+		console.log("done deleting");
+		location.reload();
 	});
 }
