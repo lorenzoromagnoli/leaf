@@ -8,6 +8,7 @@ var path = require("path");
 app.use(express.static('public'))
 app.use(bodyParser());
 
+var dbstarted=false;
 
 var mqtt = require('mqtt');
 
@@ -36,6 +37,7 @@ const MongoClient = require('mongodb').MongoClient
 MongoClient.connect('mongodb://leaf:leaf_holden@ds263089.mlab.com:63089/leaf', (err, client) => {
 	if (err) return console.log(err)
 	db = client.db('leaf') // whatever your database name is
+	dbstarted=true;
 	// ... start the server
 	app.listen(3000, () => console.log('leaf backend is listening on port 3000!'))
 })
@@ -130,7 +132,7 @@ app.get('/getRandomMsg', (req, res) => {
 
 setInterval(function() {
 
-	if (mqttclient.connected) {
+	if (mqttclient.connected && dbstarted) {
 
 		var query = {
 			approved: 'true'
