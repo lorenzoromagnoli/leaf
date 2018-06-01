@@ -23,7 +23,7 @@ LiquidCrystal_PCF8574 lcd6(0x25);
 LiquidCrystal_PCF8574 lcd7(0x26);
 LiquidCrystal_PCF8574 lcd8(0x27);
 
-int arduinoId = 1;
+int arduinoId = 3;
 
 #define PIN            7
 
