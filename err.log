@@ -1,0 +1,89 @@
+Fri, 01 Jun 2018 05:16:02 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:16:02 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:120
+		db.collection('memories').count(query, (err, count) => {
+		   ^
+
+TypeError: Cannot read property 'collection' of undefined
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:120:6)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+Fri, 01 Jun 2018 05:16:05 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:16:05 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 05:18:18 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:18:18 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:120
+		db.collection('memories').count(query, (err, count) => {
+		   ^
+
+TypeError: Cannot read property 'collection' of undefined
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:120:6)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+Fri, 01 Jun 2018 05:18:20 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:18:20 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/response.js:421:11)
+    at app.get (/Users/Lorenzo/development/web/leaf/backend.js:37:32)
+    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/Lorenzo/development/web/leaf/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+Fri, 01 Jun 2018 05:18:31 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:18:31 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/response.js:421:11)
+    at app.get (/Users/Lorenzo/development/web/leaf/backend.js:37:32)
+    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/Lorenzo/development/web/leaf/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+Fri, 01 Jun 2018 05:18:38 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:18:38 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:120
+		db.collection('memories').count(query, (err, count) => {
+		   ^
+
+TypeError: Cannot read property 'collection' of undefined
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:120:6)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+Fri, 01 Jun 2018 05:18:39 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
+Fri, 01 Jun 2018 05:18:39 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/response.js:421:11)
+    at app.get (/Users/Lorenzo/development/web/leaf/backend.js:37:32)
+    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/Lorenzo/development/web/leaf/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+/Users/Lorenzo/development/web/leaf/backend.js:39
+}
+^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:607:28)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+    at Function.Module.runMain (module.js:684:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:608:3

@@ -3,6 +3,7 @@ const bodyParser = require('body-parser')
 const app = express()
 var db;
 var ObjectId = require('mongodb').ObjectID;
+var path    = require("path");
 
 app.use(express.static('public'))
 app.use(bodyParser());
@@ -11,20 +12,20 @@ app.use(bodyParser());
 var mqtt = require('mqtt');
 
 var mqttclient = mqtt.connect('mqtt://broker.shiftr.io', {
-  clientId: 'leaf_Server',
-	username:'ebd3575a',
+	clientId: 'leaf_Server',
+	username: 'ebd3575a',
 	password: '39bccc93d8b275b1'
 });
 
-mqttclient.on('connect', function(){
-  console.log('mqtt client has connected!');
+mqttclient.on('connect', function() {
+	console.log('mqtt client has connected!');
 
-  // mqttclient.subscribe('/example');
-  // //mqttclient.unsubscribe('/example');
+	// mqttclient.subscribe('/example');
+	// //mqttclient.unsubscribe('/example');
 	//
-  // setInterval(function(){
-  //   mqttclient.publish('/hello', 'world');
-  // }, 1000);
+	// setInterval(function(){
+	//   mqttclient.publish('/hello', 'world');
+	// }, 1000);
 });
 //
 // mqttclient.on('message', function(topic, message) {
@@ -34,7 +35,9 @@ mqttclient.on('connect', function(){
 
 
 //the root basically is useless
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => {
+	res.sendFile(path.join(__dirname+'/public/index.html'));
+});
 
 //when you send something from the form it saves it in the db
 app.post('/newMessage', (req, res) => {
@@ -44,7 +47,7 @@ app.post('/newMessage', (req, res) => {
 		console.log('saved to database')
 		res.send('saved to database');
 		mqttclient.publish('/glow', 'now');
-		mqttclient.publish('/printer',req.body.message);
+		mqttclient.publish('/printer', req.body.message);
 
 	})
 })
@@ -85,7 +88,7 @@ app.get('/getRandomMsg', (req, res) => {
 		var r = Math.floor(Math.random() * count);
 		console.log(r);
 
-		var randomElement = db.collection('memories').find(query).limit(1).skip(r,).toArray(function(err, results) {
+		var randomElement = db.collection('memories').find(query).limit(1).skip(r, ).toArray(function(err, results) {
 			console.log(results);
 			res.send(results);
 		});
@@ -103,25 +106,31 @@ MongoClient.connect('mongodb://leaf:leaf_holden@ds263089.mlab.com:63089/leaf', (
 
 
 //here I set a timer that dispatch the messages to the Arduinos
-var n_screenXArduino=8;
-var n_arduinosControllingScreend=5
+var n_screenXArduino = 8;
+var n_arduinosControllingScreend = 5
 
-setInterval(function(){
-	random_Arduino= Math.floor(Math.random()*n_arduinosControllingScreend);
-	random_Screen=Math.floor(Math.random()*n_screenXArduino);
-	console.log("changing screen n."+random_Screen+" of Arduino n."+random_Arduino);
+setInterval(function() {
 
-	var query = {approved: 'true'};
-	db.collection('memories').count(query, (err, count)=> {
-		//console.log(count);
-		var r = Math.floor(Math.random() * count);
-		//console.log(r);
+	if (mqttclient.connected) {
 
-		var randomElement = db.collection('memories').find(query).limit(1).skip(r,).toArray((err, results)=> {
-			console.log("new sentence is "+ results[0].message);
-			var index=random_Screen+1
-			mqttclient.publish('/arduino'+random_Arduino+'/screen'+index, results[0].message);
+		random_Arduino = Math.floor(Math.random() * n_arduinosControllingScreend);
+		random_Screen = Math.floor(Math.random() * n_screenXArduino);
+		console.log("changing screen n." + random_Screen + " of Arduino n." + random_Arduino);
+
+		var query = {
+			approved: 'true'
+		};
+		db.collection('memories').count(query, (err, count) => {
+			//console.log(count);
+			var r = Math.floor(Math.random() * count);
+			//console.log(r);
+
+			var randomElement = db.collection('memories').find(query).limit(1).skip(r, ).toArray((err, results) => {
+				console.log("new sentence is " + results[0].message);
+				var index = random_Screen + 1
+				mqttclient.publish('/arduino' + random_Arduino + '/screen' + index, results[0].message);
+			});
 		});
-	});
+	}
 
 }, 1000);

@@ -16,6 +16,10 @@ function saveNewMessage(message){
 
 	$.post('/newMessage', messageToSend, function(data){
 		$( ".result" ).html( data );
+		showThankYou();
+
+		setTimeout(showIntro, 10000);
+
 	});
 }
 

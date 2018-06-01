@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100|Open+Sans:300" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<section id="intro">
+		<div align="center">
+			<img src="Images/IVY001.png" width="80" height="80" class="logo">
+			<h1>Seminare nostalgia vuol dire immortalare<br>
+	il presente, affinché il futuro diventi il<br>
+	ricordo di ciò che è stato.</h1>
+			<br>
+			<button onclick="showForm()">LASCIA UN MESSAGGIO</button>
+		</div>
+	</section>
+
+	<section id="form" class="hidden">
+		<div align="center">
+			<h1>A cosa stai pensando?</h1>
+
+			<div class="container">
+				<form id="newMemoryForm">
+					<textarea id="message" name="subject" maxlength="160" placeholder="Scrivi qualcosa..." style="height:200px"></textarea>
+				</form>
+				<button id="sendform-button">INVIA</button>
+			</div>
+			<div class="result">
+			</div>
+		</div>
+	</section>
+
+	<section id="thankyou" class="hidden">
+		<div align="center">
+			<img src="Images/IVY001.png" width="80" height="80" class="logo">
+			<h1>Grazie per aver perso il vostro tempo.<br>
+		Ahahahahahahahahahahah<br>
+		Ahahahah<br>
+		Ahah<br>
+		<br><br><br><br><br><br>
+		Ah...</h1>
+		</div>
+	</section>
+
+	<script src="/js/sendform.js" type="text/javascript"></script>
+	<script src="/js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
