@@ -119,8 +119,9 @@ setInterval(function(){
 
 		var randomElement = db.collection('memories').find(query).limit(1).skip(r,).toArray((err, results)=> {
 			console.log("new sentence is "+ results[0].message);
-			mqttclient.publish('/arduino'+random_Arduino+'/screen'+random_Screen+1, results[0].message);
+			var index=random_Screen+1
+			mqttclient.publish('/arduino'+random_Arduino+'/screen'+index, results[0].message);
 		});
 	});
 
-}, 2000);
+}, 1000);

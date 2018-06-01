@@ -23,12 +23,12 @@ LiquidCrystal_PCF8574 lcd6(0x25);
 LiquidCrystal_PCF8574 lcd7(0x26);  
 LiquidCrystal_PCF8574 lcd8(0x27);  
 
-#define PIN            6
+#define PIN            7
 
 // How many NeoPixels are attached to the Arduino?
-#define NUMPIXELS      50
+#define NUMPIXELS      60
 
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ400);
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_RGB + NEO_KHZ800);
 
 
 void setup() {
@@ -52,12 +52,13 @@ void setup() {
 
 void loop() {
   
-  client.loop();
-  delay(10); // <- fixes some issues with WiFi stability
-
-  if (!client.connected()) {
-    connect();
-  }
+//  client.loop();
+//  delay(10); // <- fixes some issues with WiFi stability
+//
+//  if (!client.connected()) {
+//    connect();
+//  }
+  paparazzi();
 }
 
 void messageReceived(String topic, String payload, char * bytes, unsigned int length) {

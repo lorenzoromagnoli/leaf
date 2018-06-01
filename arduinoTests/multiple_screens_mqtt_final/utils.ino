@@ -133,3 +133,52 @@ void setStripToWhite() {
   }
 }
 
+void setStripToBlack() {
+  for (int i = 0; i < NUMPIXELS; i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0)); // Moderately bright green color.
+    pixels.show(); // This sends the updated pixel color to the hardware.
+  }
+}
+
+void blink() {
+  for (int i = 0; i < 10000; i++) {
+    if (random(2) > 0) {
+      int brightness = random (50, 100);
+      pixels.setPixelColor(random(NUMPIXELS), pixels.Color(brightness, brightness, brightness)); // Moderately bright green color.
+      Serial.println("on");
+    } else {
+      pixels.setPixelColor(random(NUMPIXELS), pixels.Color(0, 0, 0)); // Moderately bright green color.
+    }
+    pixels.show(); // This sends the updated pixel color to the hardware.
+  }
+}
+
+
+void glow() {
+  for (int i = 0; i < NUMPIXELS; i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0)); // Moderately bright green color.
+    pixels.show(); // This sends the updated pixel color to the hardware.
+    delay(10);
+  }
+  for (int i = 0; i < NUMPIXELS; i++) {
+    pixels.setPixelColor(i, pixels.Color(50, 100, 80)); // Moderately bright green color.
+    pixels.show(); // This sends the updated pixel color to the hardware.
+    delay(10);
+  }
+
+  delay(2000);
+}
+
+void paparazzi() {
+  for (int i = 0; i < 1000; i++) {
+    int randompixel = random(NUMPIXELS);
+    pixels.setPixelColor(randompixel, pixels.Color(255, 255, 255)); 
+    pixels.show(); 
+    delay(10);
+    pixels.setPixelColor(randompixel, pixels.Color(0, 0, 0));
+    pixels.show();
+    delay(1);
+  }
+}
+
+
