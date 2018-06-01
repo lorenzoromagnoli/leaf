@@ -31,6 +31,23 @@ mqttclient.on('connect', function() {
 // mqttclient.on('message', function(topic, message) {
 //   console.log('new message:', topic, message.toString());
 // });
+//connect to the db when the app starts
+const MongoClient = require('mongodb').MongoClient
+MongoClient.connect('mongodb://leaf:leaf_holden@ds263089.mlab.com:63089/leaf', (err, client) => {
+	if (err) return console.log(err)
+	db = client.db('leaf') // whatever your database name is
+	// ... start the server
+	app.listen(3000, () => console.log('leaf backend is listening on port 3000!'))
+})
+
+
+//here I set a timer that dispatch the messages to the Arduinos
+var n_screenXArduino = 8;
+var n_arduinosControllingScreend = 5;
+
+
+
+
 
 
 
@@ -72,11 +89,13 @@ app.post('/updateMessage', (req, res) => {
 
 //when you send something from the form it saves it in the db
 app.post('/deleteMessage', (req, res) => {
-	console.log( "deleting message:" +req.body);
-		db.collection('memories').deleteOne({"_id": ObjectId(req.body.id)}, (err, result) => {
-			if (err) return console.log(err)
-			res.send('deleted');
-		});
+	console.log("deleting message:" + req.body);
+	db.collection('memories').deleteOne({
+		"_id": ObjectId(req.body.id)
+	}, (err, result) => {
+		if (err) return console.log(err)
+		res.send('deleted');
+	});
 
 })
 
@@ -107,41 +126,36 @@ app.get('/getRandomMsg', (req, res) => {
 	});
 })
 
-//connect to the db when the app starts
-const MongoClient = require('mongodb').MongoClient
-MongoClient.connect('mongodb://leaf:leaf_holden@ds263089.mlab.com:63089/leaf', (err, client) => {
-	if (err) return console.log(err)
-	db = client.db('leaf') // whatever your database name is
-	// ... start the server
-	app.listen(3000, () => console.log('leaf backend is listening on port 3000!'))
-})
 
-
-//here I set a timer that dispatch the messages to the Arduinos
-var n_screenXArduino = 8;
-var n_arduinosControllingScreend = 5
 
 setInterval(function() {
 
 	if (mqttclient.connected) {
 
-		random_Arduino = Math.floor(Math.random() * n_arduinosControllingScreend);
-		random_Screen = Math.floor(Math.random() * n_screenXArduino);
-		console.log("changing screen n." + random_Screen + " of Arduino n." + random_Arduino);
-
 		var query = {
 			approved: 'true'
 		};
 		db.collection('memories').count(query, (err, count) => {
-			//console.log(count);
-			var r = Math.floor(Math.random() * count);
-			//console.log(r);
 
-			var randomElement = db.collection('memories').find(query).limit(1).skip(r, ).toArray((err, results) => {
-				console.log("new sentence is " + results[0].message);
-				var index = random_Screen + 1
-				mqttclient.publish('/arduino' + random_Arduino + '/screen' + index, results[0].message);
-			});
+			if (err) return console.log(err)
+			if (count > 0) {
+
+				random_Arduino = Math.floor(Math.random() * n_arduinosControllingScreend);
+				random_Screen = Math.floor(Math.random() * n_screenXArduino);
+				console.log("changing screen n." + random_Screen + " of Arduino n." + random_Arduino);
+
+				var r = Math.floor(Math.random() * count);
+				//console.log("" r);
+
+				var randomElement = db.collection('memories').find(query).limit(1).skip(r, ).toArray((err, results) => {
+					if (err) return console.log(err);
+
+					console.log("new sentence is " + results[0].message);
+					var index = random_Screen + 1
+					mqttclient.publish('/arduino' + random_Arduino + '/screen' + index, results[0].message);
+				});
+			}
+
 		});
 	}
 

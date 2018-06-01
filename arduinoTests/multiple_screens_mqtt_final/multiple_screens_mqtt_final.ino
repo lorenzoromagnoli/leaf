@@ -5,7 +5,7 @@
 #include <LiquidCrystal_PCF8574.h>
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
-  #include <avr/power.h>
+#include <avr/power.h>
 #endif
 
 const char *ssid = "HOLDEN_UFFICI";
@@ -14,14 +14,16 @@ const char *pass = "2017_storytelling";
 WiFiClient net;
 MQTTClient client;
 
-LiquidCrystal_PCF8574 lcd1(0x20);  
-LiquidCrystal_PCF8574 lcd2(0x21);  
-LiquidCrystal_PCF8574 lcd3(0x22);  
-LiquidCrystal_PCF8574 lcd4(0x23);  
-LiquidCrystal_PCF8574 lcd5(0x24);  
-LiquidCrystal_PCF8574 lcd6(0x25);  
-LiquidCrystal_PCF8574 lcd7(0x26);  
-LiquidCrystal_PCF8574 lcd8(0x27);  
+LiquidCrystal_PCF8574 lcd1(0x20);
+LiquidCrystal_PCF8574 lcd2(0x21);
+LiquidCrystal_PCF8574 lcd3(0x22);
+LiquidCrystal_PCF8574 lcd4(0x23);
+LiquidCrystal_PCF8574 lcd5(0x24);
+LiquidCrystal_PCF8574 lcd6(0x25);
+LiquidCrystal_PCF8574 lcd7(0x26);
+LiquidCrystal_PCF8574 lcd8(0x27);
+
+int arduinoId = 1;
 
 #define PIN            7
 
@@ -32,12 +34,12 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_RGB + NEO_KHZ80
 
 
 void setup() {
-  
+  random (5000);
   Serial.begin(9600);
   initLCD();
 
-  for (int i=1; i< 9; i++){
-    writeMessageToScreen(i,"...");
+  for (int i = 1; i < 9; i++) {
+    writeMessageToScreen(i, "...");
   }
 
   initWiFi();
@@ -48,17 +50,26 @@ void setup() {
 }
 
 
+long lastScroll=0;
+long scrollDelay=200;
 
 
 void loop() {
   
-//  client.loop();
-//  delay(10); // <- fixes some issues with WiFi stability
-//
-//  if (!client.connected()) {
-//    connect();
-//  }
-  paparazzi();
+  if (millis()-lastScroll>scrollDelay){
+    scrollmessage();
+    lastScroll=millis();
+    
+  }
+
+  client.loop();
+  delay(10); // <- fixes some issues with WiFi stability
+
+  if (!client.connected()) {
+    connect();
+  }
+
+
 }
 
 void messageReceived(String topic, String payload, char * bytes, unsigned int length) {
@@ -68,12 +79,43 @@ void messageReceived(String topic, String payload, char * bytes, unsigned int le
   Serial.print(payload);
   Serial.println();
 
-  int screenIndex=topic.charAt(topic.length()-1)-48;
-  //Serial.println(screenIndex);
-  
-  writeMessageToScreen(screenIndex,payload);
+  if (topic == "glow") {
+    paparazzi();
+      setStripToWhite();
+
+  } else {
+    int screenIndex = topic.charAt(topic.length() - 1) - 48;
+    //Serial.println(screenIndex);
+
+    writeMessageToScreen(screenIndex, payload);
+
+  }
 }
 
+int scrollIndex = 0;
+int messagesLegth = 160;
 
-
+void scrollmessage() {
+  if (scrollIndex < messagesLegth) {
+    lcd1.scrollDisplayLeft();
+    lcd2.scrollDisplayLeft();
+    lcd3.scrollDisplayLeft();
+    lcd4.scrollDisplayLeft();
+    lcd5.scrollDisplayLeft();
+    lcd6.scrollDisplayLeft();
+    lcd7.scrollDisplayLeft();
+    lcd8.scrollDisplayLeft();
+    scrollIndex++;
+  } else {
+    lcd1.home();
+    lcd2.home();
+    lcd3.home();
+    lcd4.home();
+    lcd5.home();
+    lcd6.home();
+    lcd7.home();
+    lcd8.home();
+    scrollIndex=0;
+  }
+}
 

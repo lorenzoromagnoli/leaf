@@ -1,89 +1,1178 @@
-Fri, 01 Jun 2018 05:16:02 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:16:02 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-/Users/Lorenzo/development/web/leaf/backend.js:120
+Fri, 01 Jun 2018 14:12:05 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:05 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:07 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:07 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:08 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:08 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:10 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:10 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:12 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:12 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:13 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:13 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:15 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:15 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:17 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:17 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:19 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:19 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:20 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:20 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:22 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:22 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:24 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:24 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:26 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:26 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:27 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:27 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:29 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:29 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:31 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:31 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:33 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:33 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:34 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:34 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:36 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:36 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:38 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:38 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:40 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:40 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:41 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:41 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:43 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:43 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:45 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:45 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:47 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:47 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:48 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:48 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:50 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:50 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:12:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:52 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:52 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:54 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:54 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:56 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:56 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:58 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:58 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:12:59 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:12:59 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:01 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:01 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:03 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:03 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:04 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:04 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:06 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:06 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:08 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:08 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:10 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:10 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:11 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:11 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:13 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:13 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:13:14 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:14 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:20 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:20 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:26 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:26 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:32 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:32 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:37 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:37 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:149:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:43 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:43 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:13:46 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:46 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:13:57 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:13:57 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:03 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:03 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:09 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:09 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:14 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:14 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:20 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:20 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:26 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:26 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:31 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:31 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:38 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:38 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:43 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:43 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:49 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:49 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:14:55 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:14:55 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:15:01 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:01 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:15:06 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:06 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:15:12 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:12 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:15:18 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:18 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:15:24 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:24 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:132
+      throw err;
+      ^
+
+TypeError: Cannot read property 'message' of undefined
+    at db.collection.find.limit.skip.toArray (/Users/Lorenzo/development/web/leaf/backend.js:151:49)
+    at result (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:406:9)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at self.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:60)
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1043:14)
+    at Cursor.close (/Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:1056:10)
+    at /Users/Lorenzo/development/web/leaf/node_modules/mongodb/lib/cursor.js:904:21
+    at handleCallback (/Users/Lorenzo/development/web/leaf/node_modules/mongodb-core/lib/cursor.js:199:5)
+Fri, 01 Jun 2018 14:15:29 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:29 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:15:34 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:34 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:15:44 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:44 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:15:52 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:15:52 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:17:46 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:17:46 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:17:59 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:17:59 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:19:34 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:19:34 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:19:53 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:19:53 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:21:47 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:21:47 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:22:03 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:22:03 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:22:36 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:22:36 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:23:44 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:23:44 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:34:41 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:34:41 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:38:36 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:38:36 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:42:04 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:42:04 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:42:23 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:42:23 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:42:36 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:42:36 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:138
 		db.collection('memories').count(query, (err, count) => {
 		   ^
 
 TypeError: Cannot read property 'collection' of undefined
-    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:120:6)
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:138:6)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
-Fri, 01 Jun 2018 05:16:05 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:16:05 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-Fri, 01 Jun 2018 05:18:18 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:18:18 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-/Users/Lorenzo/development/web/leaf/backend.js:120
+Fri, 01 Jun 2018 14:42:38 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:42:38 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:44:56 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:44:56 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:45:32 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:45:32 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:46:06 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:46:06 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:46:39 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:46:39 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:138
 		db.collection('memories').count(query, (err, count) => {
 		   ^
 
 TypeError: Cannot read property 'collection' of undefined
-    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:120:6)
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:138:6)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
-Fri, 01 Jun 2018 05:18:20 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:18:20 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-TypeError: path must be absolute or specify root to res.sendFile
-    at ServerResponse.sendFile (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/response.js:421:11)
-    at app.get (/Users/Lorenzo/development/web/leaf/backend.js:37:32)
-    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:275:10)
-    at urlencodedParser (/Users/Lorenzo/development/web/leaf/node_modules/body-parser/lib/types/urlencoded.js:91:7)
-Fri, 01 Jun 2018 05:18:31 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:18:31 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-TypeError: path must be absolute or specify root to res.sendFile
-    at ServerResponse.sendFile (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/response.js:421:11)
-    at app.get (/Users/Lorenzo/development/web/leaf/backend.js:37:32)
-    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:275:10)
-    at urlencodedParser (/Users/Lorenzo/development/web/leaf/node_modules/body-parser/lib/types/urlencoded.js:91:7)
-Fri, 01 Jun 2018 05:18:38 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:18:38 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-/Users/Lorenzo/development/web/leaf/backend.js:120
+Fri, 01 Jun 2018 14:46:41 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:46:41 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:47:57 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:47:57 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:56:25 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:56:25 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:57:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:57:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 14:59:21 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 14:59:21 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:02:32 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:02:32 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:02:40 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:02:40 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:138
 		db.collection('memories').count(query, (err, count) => {
 		   ^
 
 TypeError: Cannot read property 'collection' of undefined
-    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:120:6)
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:138:6)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
-Fri, 01 Jun 2018 05:18:39 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:8:9
-Fri, 01 Jun 2018 05:18:39 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
-TypeError: path must be absolute or specify root to res.sendFile
-    at ServerResponse.sendFile (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/response.js:421:11)
-    at app.get (/Users/Lorenzo/development/web/leaf/backend.js:37:32)
-    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:335:12)
-    at next (/Users/Lorenzo/development/web/leaf/node_modules/express/lib/router/index.js:275:10)
-    at urlencodedParser (/Users/Lorenzo/development/web/leaf/node_modules/body-parser/lib/types/urlencoded.js:91:7)
-/Users/Lorenzo/development/web/leaf/backend.js:39
-}
-^
+Fri, 01 Jun 2018 15:02:41 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:02:41 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:02:58 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:02:58 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:03:52 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:03:52 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:04:07 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:04:07 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:24:49 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:24:49 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+/Users/Lorenzo/development/web/leaf/backend.js:138
+		db.collection('memories').count(query, (err, count) => {
+		   ^
 
-SyntaxError: missing ) after argument list
-    at createScript (vm.js:80:10)
-    at Object.runInThisContext (vm.js:139:10)
-    at Module._compile (module.js:607:28)
-    at Object.Module._extensions..js (module.js:654:10)
-    at Module.load (module.js:556:32)
-    at tryModuleLoad (module.js:499:12)
-    at Function.Module._load (module.js:491:3)
-    at Function.Module.runMain (module.js:684:10)
-    at startup (bootstrap_node.js:187:16)
-    at bootstrap_node.js:608:3
+TypeError: Cannot read property 'collection' of undefined
+    at Timeout._onTimeout (/Users/Lorenzo/development/web/leaf/backend.js:138:6)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+Fri, 01 Jun 2018 15:24:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:24:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:38:37 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:38:37 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:39:14 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:39:15 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:39:43 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:39:43 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:40:17 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:40:17 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:40:51 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:40:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29
+Fri, 01 Jun 2018 15:41:28 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at backend.js:9:9
+Fri, 01 Jun 2018 15:41:28 GMT body-parser deprecated undefined extended: provide extended option at node_modules/body-parser/index.js:105:29

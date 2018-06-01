@@ -61,7 +61,8 @@ void connect() {
     writeMessageToScreen(i, "Connected!");
   }
 
-  client.subscribe("/arduino0/#");
+  client.subscribe(String("/arduino")+arduinoId+String("/#"));
+  client.subscribe("glow");
 }
 
 
@@ -71,6 +72,7 @@ void writeMessageToScreen(int lcdIndex, String msg) {
     case 1:
       lcd1.setBacklight(255);
       lcd1.home();
+      lcd1.autoscroll();
       lcd1.clear();
       lcd1.print(msg);
       break;
@@ -128,16 +130,18 @@ void writeMessageToScreen(int lcdIndex, String msg) {
 
 void setStripToWhite() {
   for (int i = 0; i < NUMPIXELS; i++) {
-    pixels.setPixelColor(i, pixels.Color(150, 150, 150)); // Moderately bright green color.
-    pixels.show(); // This sends the updated pixel color to the hardware.
+    pixels.setPixelColor(i, pixels.Color(20, 20, 20)); // Moderately bright green color.
   }
+  pixels.show(); // This sends the updated pixel color to the hardware.
+
 }
 
 void setStripToBlack() {
   for (int i = 0; i < NUMPIXELS; i++) {
     pixels.setPixelColor(i, pixels.Color(0, 0, 0)); // Moderately bright green color.
-    pixels.show(); // This sends the updated pixel color to the hardware.
   }
+  pixels.show(); // This sends the updated pixel color to the hardware.
+
 }
 
 void blink() {
