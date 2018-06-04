@@ -27,7 +27,7 @@ void loop() {
 
   client.loop();
   delay(10); // <- fixes some issues with WiFi stability
-  
+
   if (!client.connected()) {
     connect();
   }
@@ -36,11 +36,27 @@ void loop() {
 void printmessage(String message) {
   printer.wake();       // MUST wake() before printing again, even if reset
 
+  printer.justify('C');
+  printer.setSize('S');        // Set type size, accepts 'S', 'M', 'L'
+  printer.inverseOn();
+  printer.println(F("IVY"));
+  printer.inverseOff();
+
+
   printer.justify('L');
   printer.setSize('M');        // Set type size, accepts 'S', 'M', 'L'
   printer.feed(5);
   printer.println(message);
   printer.feed(5);
+
+  printer.setSize('S');        // Set type size, accepts 'S', 'M', 'L'
+  printer.println(F("6-6-18"));
+  printer.feed(1);
+  printer.println(F("Scuola Holden"));
+  printer.feed(1);
+  printer.println(F("#seedingnostalgia"));
+
+  printer.inverseOff();
 
   printer.sleep();      // Tell printer to sleep
   printer.setDefault(); // Restore printer to defaults
@@ -60,5 +76,3 @@ printmessage(payload);
   //Serial.println(screenIndex);
 
 }
-
-
