@@ -3,6 +3,8 @@ $( document ).ready(function() {
     console.log( "ready!" );
 		$("#sendform-button").on('click', function () {
 			var message=document.getElementById("message").value;
+
+			document.getElementById("message").value="";
 			console.log (message);
 			console.log (message.normalize('NFD').replace(/[\u0300-\u036f]/g, ""));
 
