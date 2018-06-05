@@ -4,9 +4,15 @@ $( document ).ready(function() {
 		$("#sendform-button").on('click', function () {
 			var message=document.getElementById("message").value;
 			console.log (message);
-			saveNewMessage(message)
+			console.log (message.normalize('NFD').replace(/[\u0300-\u036f]/g, ""));
+
+			saveNewMessage(message.normalize('NFD').replace(/[\u0300-\u036f]/g, ""))
 		});
 });
+
+
+//str.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+
 
 function saveNewMessage(message){
 	var messageToSend={
