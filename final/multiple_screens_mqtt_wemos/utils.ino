@@ -48,7 +48,7 @@ void connect() {
   }
 
   Serial.print("\nconnecting...");
-  while (!client.connect("wemos", "ebd3575a", "39bccc93d8b275b1")) {
+while (!client.connect( string2char(clientName), "ebd3575a", "39bccc93d8b275b1")) {
     Serial.print(".");
     delay(1000);
   }
