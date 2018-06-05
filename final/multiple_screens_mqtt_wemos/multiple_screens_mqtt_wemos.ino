@@ -3,13 +3,13 @@
 #include <Wire.h>
 #include <LiquidCrystal_PCF8574.h>
 
-const char *ssid = "TMNL-129315";
-const char *pass = "YNS7HQEWWWUBFZ";
+const char *ssid = "gino";
+const char *pass = "ginogino";
 
 WiFiClient net;
 MQTTClient client;
 
-LiquidCrystal_PCF8574 lcd1(0x20);
+LiquidCrystal_PCF8574 lcd1(0x3E);
 LiquidCrystal_PCF8574 lcd2(0x21);
 LiquidCrystal_PCF8574 lcd3(0x22);
 LiquidCrystal_PCF8574 lcd4(0x23);
@@ -25,7 +25,51 @@ String text4;
 String text5;
 String text6;
 String text7;
-String text8; 
+String text8;
+
+
+
+int n_LCD1 = 0;
+int i_LCD1 = 0;
+int j_LCD1 = 0;
+int x_LCD1 = 0;
+
+int n_LCD2 = 0;
+int i_LCD2 = 0;
+int j_LCD2 = 0;
+int x_LCD2 = 0;
+
+int n_LCD3 = 0;
+int i_LCD3 = 0;
+int j_LCD3 = 0;
+int x_LCD3 = 0;
+
+int n_LCD4 = 0;
+int i_LCD4 = 0;
+int j_LCD4 = 0;
+int x_LCD4 = 0;
+
+int n_LCD5 = 0;
+int i_LCD5 = 0;
+int j_LCD5 = 0;
+int x_LCD5 = 0;
+
+int n_LCD6 = 0;
+int i_LCD6 = 0;
+int j_LCD6 = 0;
+int x_LCD6 = 0;
+
+int n_LCD7 = 0;
+int i_LCD7 = 0;
+int j_LCD7 = 0;
+int x_LCD7 = 0;
+
+int n_LCD8 = 0;
+int i_LCD8 = 0;
+int j_LCD8 = 0;
+int x_LCD8 = 0;
+
+
 
 int arduinoId = 4;
 
@@ -35,22 +79,20 @@ int arduinoId = 4;
 #define LCDHEIGHT 2
 
 
-
 void setup() {
   random (5000);
   Serial.begin(9600);
   initLCD();
 
-  lcd1.setCursor(0,0);
-  lcd1.print("...");
+  printAllScreen("...");
 
-  
+
   initWiFi();
 }
 
 
 long lastScroll = 0;
-long scrollDelay = 200;
+long scrollDelay = 100;
 
 
 void loop() {
@@ -61,6 +103,21 @@ void loop() {
   if (!client.connected()) {
     connect();
   }
+
+  if (millis() - lastScroll > scrollDelay) {
+    udateDisplayScroll(lcd1, n_LCD1, i_LCD1, j_LCD1, x_LCD1, text1);
+    udateDisplayScroll(lcd2, n_LCD2, i_LCD2, j_LCD2, x_LCD2, text2);
+    udateDisplayScroll(lcd3, n_LCD3, i_LCD3, j_LCD3, x_LCD3, text3);
+    udateDisplayScroll(lcd4, n_LCD4, i_LCD4, j_LCD4, x_LCD4, text4);
+    udateDisplayScroll(lcd5, n_LCD5, i_LCD5, j_LCD5, x_LCD5, text5);
+    udateDisplayScroll(lcd6, n_LCD6, i_LCD6, j_LCD6, x_LCD6, text6);
+    udateDisplayScroll(lcd7, n_LCD7, i_LCD7, j_LCD7, x_LCD7, text7);
+    udateDisplayScroll(lcd8, n_LCD8, i_LCD8, j_LCD8, x_LCD8, text8);
+
+    lastScroll=millis();
+  }
+
+
 
 
 }
