@@ -104,7 +104,8 @@ void loop() {
     connect();
   }
 
-  if (millis() - lastScroll > scrollDelay) {
+  
+if (millis() - lastScroll > scrollDelay) {
     udateDisplayScroll(lcd1, n_LCD1, i_LCD1, j_LCD1, x_LCD1, text1);
     udateDisplayScroll(lcd2, n_LCD2, i_LCD2, j_LCD2, x_LCD2, text2);
     udateDisplayScroll(lcd3, n_LCD3, i_LCD3, j_LCD3, x_LCD3, text3);
@@ -116,9 +117,6 @@ void loop() {
 
     lastScroll=millis();
   }
-
-
-
 
 }
 
