@@ -7,7 +7,7 @@
 #define LCDHEIGHT 2
 
 // Used lcd: mine is 0x27 type
-LiquidCrystal_PCF8574 lcd(0x3F);
+LiquidCrystal_PCF8574 lcd(0x3E);
 
 void setup() {
   lcd.begin(LCDWIDTH, LCDHEIGHT); // initialize with your correct lcd size here
@@ -21,7 +21,9 @@ void setup() {
   int scrollingSpeed = 300;
       lcd.setBacklight(50);
 
-  pinAndScrollText(pinnedString, pinnedRow, scrollingString, scrollingRow, scrollingSpeed);
+  //pinAndScrollText(pinnedString, pinnedRow, scrollingString, scrollingRow, scrollingSpeed);
+  
+  pinAndScrollText(lcd, 0, scrollingString, 1, 300);
 
   delay(2000);
   lcd.clear();
@@ -40,17 +42,15 @@ void loop() {
     int scrollingRow: desired row for scrolling String
     int v = scrolling speed expressed in milliseconds
 */
-void pinAndScrollText(const String &pinnedText, int pinnedRow, const String &scrollingText, int scrollingRow, int v) {
-  if (pinnedRow == scrollingRow || pinnedRow < 0 || scrollingRow < 0 || pinnedRow >= LCDHEIGHT || scrollingRow >= LCDHEIGHT || pinnedText.length() > LCDWIDTH || v < 0) {
-    lcd.clear();
-    lcd.print("Error");
-    while (1);
-  }
-  int l = pinnedText.length();
-  lcd.setCursor(l % 2 == 0 ? LCDWIDTH / 2 - (l / 2) : LCDWIDTH / 2 - (l / 2) - 1, pinnedRow);
-  lcd.print(pinnedText);
+
+
+void pinAndScrollText(LiquidCrystal_PCF8574 &lcd, int pinnedRow, const String &scrollingText, int scrollingRow, int v) {
   int x = LCDWIDTH;
   int n = scrollingText.length() + x;
+
+  Serial.print("length: ");
+  Serial.println(n-x);
+  
   int i = 0;
   int j = 0;
   while (n > 0) {
@@ -73,10 +73,11 @@ void pinAndScrollText(const String &pinnedText, int pinnedRow, const String &scr
     }
     n--;
     if (n > 0) {
-      delay((v/4)*3);
+      delay((v / 4) * 3);
       lcd.clear();
-      delay((v/4)*1);
-
+      delay((v / 4) * 1);
+      Serial.print("scroll-");
     }
   }
 }
+

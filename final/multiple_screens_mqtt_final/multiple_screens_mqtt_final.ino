@@ -8,12 +8,27 @@
 #include <avr/power.h>
 #endif
 
+/////////////////////////////////////
+///////////VERY IMPORTANT////////////
+/////////////////////////////////////
+//////////CHANGE ARDUINO ID/////////
+/////////////////////////////////////
+
+int arduinoId = 4; //plese use 1,2,3,4 or 5 accordingly. 
+String clientName=String("arduino") + arduinoId;
+
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+
+//WIFI
 const char *ssid = "HOLDEN_UFFICI";
 const char *pass = "2017_storytelling";
-
 WiFiClient net;
 MQTTClient client;
 
+//LCD
 LiquidCrystal_PCF8574 lcd1(0x20);
 LiquidCrystal_PCF8574 lcd2(0x21);
 LiquidCrystal_PCF8574 lcd3(0x22);
@@ -23,24 +38,38 @@ LiquidCrystal_PCF8574 lcd6(0x25);
 LiquidCrystal_PCF8574 lcd7(0x26);
 LiquidCrystal_PCF8574 lcd8(0x27);
 
-int arduinoId = 4;
+String text1;
+String text2;
+String text3;
+String text4;
+String text5;
+String text6;
+String text7;
+String text8;
 
+ // Constant for my lcd size, adjust to your lcd
+#define LCDWIDTH 16
+#define LCDHEIGHT 2
+
+
+//NEOPIXEL 
 #define PIN            7
-
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS      60
-
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_RGB + NEO_KHZ800);
 
 
 void setup() {
-  random (5000);
+  delay(random (5000));
   Serial.begin(9600);
+  Serial.println();
+  Serial.print("initializing ");
+  Serial.println(clientName);
+
   initLCD();
 
-  for (int i = 1; i < 9; i++) {
-    writeMessageToScreen(i, "...");
-  }
+  lcd1.setCursor(0,0);
+  lcd1.print("...");
 
   initWiFi();
 
@@ -50,17 +79,9 @@ void setup() {
 }
 
 
-long lastScroll = 0;
-long scrollDelay = 200;
-
 
 void loop() {
 
-  if (millis() - lastScroll > scrollDelay) {
-    scrollmessage();
-    lastScroll = millis();
-
-  }
 
   client.loop();
   delay(10); // <- fixes some issues with WiFi stability
@@ -73,6 +94,7 @@ void loop() {
 }
 
 void messageReceived(String topic, String payload, char * bytes, unsigned int length) {
+  Serial.println();
   Serial.print("incoming: ");
   Serial.print(topic);
   Serial.print(" - ");
@@ -80,42 +102,12 @@ void messageReceived(String topic, String payload, char * bytes, unsigned int le
   Serial.println();
 
   if (topic == "glow") {
-    paparazzi();
-    setStripToWhite();
 
   } else {
     int screenIndex = topic.charAt(topic.length() - 1) - 48;
     //Serial.println(screenIndex);
-
     writeMessageToScreen(screenIndex, payload);
 
-  }
-}
-
-int scrollIndex = 0;
-int messagesLegth = 160;
-
-void scrollmessage() {
-  if (scrollIndex < messagesLegth) {
-    lcd1.scrollDisplayLeft();
-    lcd2.scrollDisplayLeft();
-    lcd3.scrollDisplayLeft();
-    lcd4.scrollDisplayLeft();
-    lcd5.scrollDisplayLeft();
-    lcd6.scrollDisplayLeft();
-    lcd7.scrollDisplayLeft();
-    lcd8.scrollDisplayLeft();
-    scrollIndex++;
-  } else {
-    lcd1.home();
-    lcd2.home();
-    lcd3.home();
-    lcd4.home();
-    lcd5.home();
-    lcd6.home();
-    lcd7.home();
-    lcd8.home();
-    scrollIndex = 0;
   }
 }
 
